@@ -141,3 +141,59 @@ footer button{
     padding-top:1%;
     padding-bottom:1%;
 }
+@media(max-width:500px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        margin-left: 30%;
+        width: 40%;
+        justify-content: center;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        margin: 0;
+        padding: 0;
+        margin-left: 20%;
+    }
+    .img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:800px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        margin-left: 30%;
+        width: 40%;
+        justify-content: center;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        margin: 0;
+        padding: 0;
+        margin-left: 20%;
+    }
+    .img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-left: 25%;
+    }
+}
